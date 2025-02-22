@@ -14,31 +14,31 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: 아기공룡의 세상살이 # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: 개발을 좋아하는 아기공룡의 성장일기 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  소프트웨어 개발, 기술 지식, 금융, 건강 및 운동 등 다양한 지식을 공유합니다.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://bbdyno.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://bbdyno.github.io"
 
 github:
   username: bbdyno # change to your GitHub username
 
-twitter:
-  username: twitter_username # change to your Twitter username
+instagram:
+  username: 73in._vrs # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: bbdyno
+  email: della.kimko@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
+    - https://instagram.com/73in._vrs # change to your Instagram homepage
     - https://github.com/bbdyno # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -88,7 +88,7 @@ pageviews:
 #     light — Use the light color scheme
 #     dark — Use the dark color scheme
 #
-theme_mode: # [light | dark]
+theme_mode: dark # [light | dark]
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
