@@ -3,7 +3,7 @@ title: Swift Mirror 타입 총정리
 description: Swift의 Mirror 타입에 대한 개념, 사용법, 예제 및 내부 동작 원리를 공식 문서를 참고하여 정리한 글입니다.
 author: bbdyno
 date: 2025-02-23 18:30:00 +0900
-categories: [Swift, Reflection, iOS]
+categories: [Programming Language, Swift]
 tags: [Swift, Reflection, Mirror, iOS, 개발]
 pin: true
 math: true

@@ -3,7 +3,7 @@ title: Swift Concurrency 개념과 사용법 총정리
 description: Swift Concurrency의 개념과 사용법을 공식 문서를 기반으로 정리합니다.
 author: bbdyno
 date: 2025-02-23 18:11:00 +0900
-categories: [Swift, Concurrency, iOS, Apple]
+categories: [Programming Language, Swift]
 tags: [Swift, Concurrency, async-await, actor, structured-concurrency]
 pin: true
 math: true

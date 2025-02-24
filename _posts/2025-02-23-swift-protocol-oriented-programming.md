@@ -3,7 +3,7 @@ title: Swift의 프로토콜 지향 프로그래밍
 description: Swift의 프로토콜 지향 프로그래밍 개념과 활용법을 swift.org 공식 문서를 기반으로 설명합니다.
 author: bbdyno
 date: 2025-02-23 18:44:00 +0900
-categories: [Swift, iOS, 프로그래밍]
+categories: [Programming Language, Swift]
 tags: [Swift, Protocol-Oriented Programming, POP, OOP, Swift 프로그래밍]
 pin: true
 math: true

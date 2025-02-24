@@ -3,7 +3,7 @@ title: VisionOS - An Introduction
 description: VisionOS 앱 개발의 기초를 다루며, SwiftUI를 사용하여 3D 객체를 생성하고 공간에 배치하는 방법을 포함합니다.
 author: bbdyno
 date: 2025-02-23 13:31:00 +0900
-categories: [visionOS, SwiftUI, iOS Development]
+categories: [Development, VisionOS]
 tags: [visionOS, SwiftUI, 3D, Apple]
 pin: true
 math: true
