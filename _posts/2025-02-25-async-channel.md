@@ -1,5 +1,5 @@
 ---
-title: Swift Async Algorithms의 AsyncChannel 이해하기
+title: Swift AsyncChannel 완벽 가이드: Async Algorithms로 비동기 프로그래밍 마스터하기
 description: Swift의 AsyncAlgorithms 패키지에 추가된 AsyncChannel을 깊이 탐구하고, 기존 AsyncStream과의 차이점, 백프레셔 관리, 활용 사례를 살펴봅니다.
 author: bbdyno
 date: 2025-02-25 23:10:00 +0900
@@ -9,13 +9,13 @@ pin: true
 math: true
 mermaid: true
 ---
-아래 글은 Swift의 비동기 프로그래밍 패러다임에서 새롭게 부상하고 있는 `AsyncChannel`에 대한 소개와 활용 방법을 정리한 글입니다. Apple에서 오픈 소스로 제공하는 [Swift Async Algorithms](https://github.com/apple/swift-async-algorithms) 패키지 내에 포함된 `AsyncChannel`은 기존 `AsyncStream` 혹은 `AsyncThrowingStream`으로 구현하기 까다로웠던 백프레셔(Backpressure) 관리와 명시적인 finish 호출 등을 간편하게 해준다는 장점이 있습니다.
+본 글은 Swift의 비동기 프로그래밍 패러다임에서 새롭게 부상하고 있는 `AsyncChannel`에 대한 소개와 활용 방법을 정리한 글입니다. Apple에서 오픈 소스로 제공하는 [Swift Async Algorithms](https://github.com/apple/swift-async-algorithms) 패키지 내에 포함된 `AsyncChannel`은 기존 `AsyncStream` 혹은 `AsyncThrowingStream`으로 구현하기 까다로웠던 백프레셔(Backpressure) 관리와 명시적인 finish 호출 등을 간편하게 해준다는 장점이 있습니다.
 
-이 글에서는 다음과 같은 목차를 통해 `AsyncChannel`의 기본적인 개념부터 사용법, 그리고 예제 코드까지 살펴보겠습니다.
+이 글에서는 `AsyncChannel`의 기본적인 개념부터 사용법, 그리고 예제 코드까지 살펴보겠습니다.
 
 ---
 
-## 1. 서론
+## 1. 시작
 ### 1.1. Swift에서 비동기 프로그래밍의 중요성
 Swift 5.5부터 본격적으로 도입된 `async/await`는 비동기 프로그래밍을 훨씬 간결하고 안전하게 작성할 수 있도록 해줬습니다. 예전의 `completion handler` 스타일에서 벗어나 `Task` 내에서 직관적인 코드 흐름을 유지하면서도 논 블로킹(Non-blocking) 실행이 가능합니다.
 
@@ -253,7 +253,7 @@ func errorHandlingExample(channel: AsyncChannel<Result<Int, Error>>) {
 
 ---
 
-## 9. 결론
+## 9. 마무리
 
 `AsyncChannel`은 Swift에서 비동기 스트림을 다룰 때 생기는 여러 문제점(특히 백프레셔 관리와 명시적인 완료 처리)을 우아하게 해결해주는 툴입니다. `AsyncStream`에 비해 약간의 러닝 커브가 있을 수 있지만, 대규모 비동기 시스템을 구축하거나, 다중 Producer/Consumer 환경을 고려한다면 `AsyncChannel`이 제공하는 간결함과 안전성은 매우 매력적입니다.
 
