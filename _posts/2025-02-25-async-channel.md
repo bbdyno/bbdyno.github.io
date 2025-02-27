@@ -1,5 +1,5 @@
 ---
-title: Swift AsyncChannel 완벽 가이드: Async Algorithms로 비동기 프로그래밍 마스터하기
+title: Swift AsyncChannel - Async Algorithms로 비동기 프로그래밍 마스터하기
 description: Swift의 AsyncAlgorithms 패키지에 추가된 AsyncChannel을 깊이 탐구하고, 기존 AsyncStream과의 차이점, 백프레셔 관리, 활용 사례를 살펴봅니다.
 author: bbdyno
 date: 2025-02-25 23:10:00 +0900
