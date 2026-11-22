@@ -8,3 +8,4 @@ User-agent: *
 Disallow: /norobots/
 
 Sitemap: {{ '/sitemap.xml' | absolute_url }}
+Sitemap: https://bbdyno.github.io/Branchlane-Page/sitemap.xml
