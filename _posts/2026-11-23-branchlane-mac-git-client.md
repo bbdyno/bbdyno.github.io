@@ -86,7 +86,7 @@ Git이 일을 막는 경우는 드물었습니다. 비용은 다른 곳에 있�
 Branchlane 2.2의 에이전트 Lane은 에이전트에게 맡긴 일 하나를 브랜치 하나와 작업 폴더(worktree) 하나로 묶습니다.
 
 ~~~mermaid
-flowchart LR
+flowchart TD
     A["Lane 시작<br/>브랜치 + worktree"] --> B["에이전트 작업<br/>체크포인트"]
     B --> C["증거 기록<br/>테스트 결과"]
     C --> D["검토 요청"]
